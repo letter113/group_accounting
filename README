@@ -1,0 +1,20 @@
+Created by letter
+June 5, 2013
+Stockholm
+
+After our group trip, I found it a little headache to track we paid money for whom and 
+who owns whom money and how in summary the money transition should go. So a script to
+do that, I thought.
+
+Input will be a file:
+
+3 # number of person
+1:Alice
+2:Bob
+3:Cat 
+1 90: 1,2,3 # means Alice paid 90 for them 3 and they should equally share it
+2 80: 1 50, 3 10 # means Bob paid 80, of which Alice should pay 50, Cat pay 10
+
+Results:
+Alice should pay Bob 20
+Cat should pay Alice 30, Bob 10
